@@ -77,4 +77,4 @@ All data is local — simply **uninstall the app** to erase it permanently.
 
 ## Contact
 
-Questions: **azazhugo@gmail.com**
+Questions: **hugo.azazgour.pro@gmail.com**
