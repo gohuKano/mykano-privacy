@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — MyKano</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Sans+JP:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #EAE0CD;
+    --paper-deep: #DBCEB2;
+    --surface: #E1D5BD;
+    --ink: #211C16;
+    --hanko: #B23A2E;
+    --muted: #6E6253;
+    --muted-dim: #9A8E7A;
+    --line: rgba(33,28,22,0.15);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: linear-gradient(180deg, var(--paper-deep), var(--paper) 20%, var(--surface));
+    color: var(--ink);
+    font-family: 'Noto Sans JP', -apple-system, sans-serif;
+    line-height: 1.7;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .wordmark {
+    font-family: 'Shippori Mincho', Georgia, serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--ink);
+    margin: 0;
+  }
+  .kanji-sub {
+    font-family: 'Shippori Mincho', Georgia, serif;
+    color: var(--hanko);
+    letter-spacing: 8px;
+    font-size: 18px;
+    margin: 4px 0 0;
+  }
+  .doc-title {
+    margin-top: 28px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .updated {
+    font-size: 12.5px;
+    color: var(--muted-dim);
+    margin-top: 6px;
+  }
+  .card {
+    background: rgba(255,255,255,0.28);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 36px 34px;
+  }
+  h2 {
+    font-family: 'Shippori Mincho', Georgia, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--hanko);
+    margin: 34px 0 12px;
+  }
+  h2:first-child { margin-top: 0; }
+  p, li { font-size: 15.5px; color: var(--ink); }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  strong { color: var(--ink); }
+  a { color: var(--hanko); text-decoration: none; border-bottom: 1px solid rgba(178,58,46,0.35); }
+  a:hover { border-bottom-color: var(--hanko); }
+  code {
+    background: rgba(33,28,22,0.08);
+    padding: 1px 6px;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 56px 0 34px;
+  }
+  .divider .line { flex: 1; height: 1px; background: var(--line); }
+  .divider .kanji {
+    font-family: 'Shippori Mincho', Georgia, serif;
+    font-size: 13px;
+    color: var(--muted-dim);
+    letter-spacing: 4px;
+    white-space: nowrap;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12.5px;
+    color: var(--muted-dim);
+    font-family: 'Shippori Mincho', Georgia, serif;
+    letter-spacing: 2px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="wordmark">MyKano</p>
+    <p class="kanji-sub">柔道</p>
+    <p class="doc-title">Politique de confidentialité</p>
+    <p class="updated">Dernière mise à jour : 24 juin 2026</p>
+  </header>
+
+  <div class="card">
+    <p>MyKano est une application d'apprentissage du judo. Elle est conçue pour fonctionner <strong>entièrement sur votre appareil</strong>.</p>
+
+    <h2>Données collectées</h2>
+    <p><strong>Aucune.</strong> MyKano ne collecte, ne transmet et ne partage aucune donnée personnelle.</p>
+    <ul>
+      <li>Votre progression (prises acquises, série, prises favorites), votre nom et vos réglages sont stockés <strong>localement</strong> sur votre appareil (via <code>UserDefaults</code> iOS). Ces informations ne quittent jamais l'appareil et ne sont accessibles à personne d'autre que vous.</li>
+      <li>L'application <strong>ne contient aucun traceur, aucune publicité, aucun outil d'analyse</strong> et <strong>ne nécessite aucun compte</strong>.</li>
+      <li>L'application <strong>n'effectue aucune requête réseau</strong> vers nos serveurs (nous n'en avons pas).</li>
+    </ul>
+
+    <h2>Notifications</h2>
+    <p>Si vous activez le rappel quotidien, MyKano programme une <strong>notification locale</strong> sur votre appareil. Aucune donnée n'est envoyée à l'extérieur ; vous pouvez la désactiver à tout moment dans les réglages de l'application ou d'iOS.</p>
+
+    <h2>Liens externes</h2>
+    <p>Le bouton « Vidéo Kodokan » ouvre une recherche sur <strong>YouTube</strong> dans votre navigateur. Une fois sur YouTube, la politique de confidentialité de Google / YouTube s'applique. MyKano ne transmet aucune information personnelle dans ce lien (seul le nom de la prise recherchée).</p>
+
+    <h2>Suppression des données</h2>
+    <p>Toutes les données étant locales, il vous suffit de <strong>désinstaller l'application</strong> pour les effacer définitivement.</p>
+
+    <h2>Enfants</h2>
+    <p>MyKano ne collecte aucune donnée et convient à tous les publics.</p>
+
+    <h2>Contact</h2>
+    <p>Pour toute question : <a href="mailto:hugo.azazgour.pro@gmail.com">hugo.azazgour.pro@gmail.com</a></p>
+  </div>
+
+  <div class="divider"><span class="line"></span><span class="kanji">英語 · ENGLISH</span><span class="line"></span></div>
+
+  <div class="card">
+    <p>MyKano is a judo learning app designed to run <strong>entirely on your device</strong>.</p>
+
+    <h2>Data we collect</h2>
+    <p><strong>None.</strong> MyKano does not collect, transmit or share any personal data.</p>
+    <ul>
+      <li>Your progress, name and settings are stored <strong>locally</strong> on your device (iOS <code>UserDefaults</code>) and never leave it.</li>
+      <li>The app contains <strong>no trackers, no ads, no analytics</strong> and <strong>requires no account</strong>.</li>
+      <li>The app makes <strong>no network requests</strong> to any server of ours (we don't have any).</li>
+    </ul>
+
+    <h2>Notifications</h2>
+    <p>If you enable the daily reminder, MyKano schedules a <strong>local notification</strong> on your device. Nothing is sent anywhere; you can turn it off anytime.</p>
+
+    <h2>External links</h2>
+    <p>The "Kodokan video" button opens a <strong>YouTube</strong> search in your browser, where Google/YouTube's privacy policy then applies. Only the technique name is passed.</p>
+
+    <h2>Deleting your data</h2>
+    <p>All data is local — simply <strong>uninstall the app</strong> to erase it permanently.</p>
+
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:hugo.azazgour.pro@gmail.com">hugo.azazgour.pro@gmail.com</a></p>
+  </div>
+
+  <footer>MyKano — 柔道</footer>
+</div>
+</body>
+</html>
