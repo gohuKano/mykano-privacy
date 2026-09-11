@@ -42,7 +42,7 @@ MyKano ne collecte aucune donnée et convient à tous les publics.
 
 ## Contact
 
-Pour toute question : **azazhugo@gmail.com**
+Pour toute question : **hugo.azazgour.pro@gmail.com*
 
 ---
 
